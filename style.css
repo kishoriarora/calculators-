@@ -1,0 +1,39 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family:sans-serif; }
+
+body { background:#f2f2e9; display:flex; align-items:center; justify-content:center; height:100vh; }
+
+.converter {
+  background:#c2cbb8; padding:2rem; border-radius:12px;
+  max-width:360px; width:100%;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+.converter h2 { text-align:center; margin-bottom:1rem; }
+.converter label { font-weight:600; }
+.converter input {
+  width:100%; padding:0.7rem; margin:0.5rem 0 1rem;
+  border-radius:6px; border:1px solid #ccc;
+}
+.row { display:flex; justify-content:space-between; }
+.select-box {
+  background:#fff; display:flex; align-items:center;
+  border-radius:6px; flex:1; margin-right:0.5rem;
+}
+.select-box:last-child { margin-right:0; }
+.select-box img {
+  width:24px; height:24px; margin:0 0.5rem;
+}
+.select-box select {
+  width:100%; padding:0.5rem; border:none; border-radius:6px;
+}
+#rate-info { text-align:center; margin:1rem 0; font-weight:600; }
+#convert-btn {
+  width:100%; padding:0.8rem; background:#1a2520; color:#fff;
+  border:none; border-radius:6px; font-size:1rem; cursor:pointer;
+}
+#convert-btn:hover { background:#15201c; }
+
+.row img {
+  height: 20px;
+  width: 30px;
+
+}
